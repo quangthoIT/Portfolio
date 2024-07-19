@@ -1,0 +1,76 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: 'Merriweather';
+  margin: 0px;
+  background-color: #dfe6e9;
+}
+
+.container {
+  position: relative; /* Vị trí tương đối */
+  display: flex; /* Dùng flexbox để bố trí */
+  flex-direction: column; /* Sắp xếp theo cột */
+  justify-content: space-between; /* Căn giữa các phần tử và cách đều nhau */
+  width: 100vw;
+  height: 100vh;
+}
+
+#gioithieu {
+  margin-top: 0px;
+  font-size: 3vh;
+  font-weight: 600;
+  background-color: #3498db;
+  color: white;
+  text-align: center;
+  padding: 2vh 2vw;
+}
+
+.thongtin {
+  display: flex;
+  align-items: flex-start;
+  padding: 0px;
+  flex-wrap: wrap;
+}
+
+#noidung {
+  text-align: left;
+  padding: 1.5vw 1vw 1vw 2vw;
+  line-height: 4vh;
+  white-space: initial;
+}
+
+#noidung ul {
+  margin: 0;
+  padding: 0 0 0 5vw;
+}
+
+#anh {
+  flex: 0 0 auto;
+  padding: 1vw 0 0 7vw;
+}
+
+#anh img {
+  width: 20vw;
+  height: 25vw;
+}
+
+#lienhe {
+  text-align: center;
+  text-decoration: underline;
+}
+
+#lienhequa {
+  text-align: center;
+  line-height: 4vh;
+}
+
+#banquyen {
+  text-align: center;
+  font-weight: 700;
+  background-color: #b2bec3;
+  line-height: 3vw;
+  margin-top: 1vw;
+}
